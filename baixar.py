@@ -3,7 +3,7 @@ import os
 import re
 
 # Jovem, informe aqui o token de acesso da página que foi copiado do Graph API Explorer
-ACCESS_TOKEN = 'Acess token'
+ACCESS_TOKEN = 'Access token'
 PAGE_ID = 'Vai o ID da FanPage'
 
 # Aqui vai limpar os nomes dos albuns para evitar erros ao criar as pastas no nosso pc
