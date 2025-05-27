@@ -40,9 +40,9 @@ if not albuns:
 else:
     for album in albuns:
         nome_album = limpar_nome(album['name'])
-        print(f"📥 Baixando álbum: {nome_album}")
+        print(f"Baixando álbum: {nome_album}")
         fotos = pegar_fotos_do_album(album['id'])
         if fotos:
             baixar_fotos(fotos, f"albuns/{nome_album}")
         else:
-            print(f"⚠️ Nenhuma foto encontrada no álbum: {nome_album}")
+            print(f"Nenhuma foto encontrada no álbum: {nome_album}")
